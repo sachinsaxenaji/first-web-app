@@ -1,0 +1,140 @@
+header{
+	height: 65px;
+}
+html,body{
+padding: 0px;
+margin: 0px;	
+}
+body{
+font-family: Helvetica, Arial, san-serif;
+background-color: #007FC0;
+}
+.container{
+		width: 1550px;
+	margin: 0px auto;
+	background-color: white;
+	padding: 5px;
+}
+.bordered{
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+header,footer{
+background-color: #7ECBF3;
+border: 1px solid blue;
+}
+footer{
+	padding: 10px;
+	border-radius: 5px;
+}
+header nav{
+	float: right	
+} 
+header nav li{
+	display: inline;
+	font-size: 34px;
+	padding-right: 10px;
+}
+a{
+	color: #007FC0;
+}
+#main{
+	min-height: 600px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	color: #202020;
+	margin: 10px 0px;
+	padding: 5px;
+}
+#results{
+	padding: 2px;
+	width: 300px;
+	display: inline;
+	border: 1px solid black;
+	vertical-align: top;	
+}	
+	
+.result{
+	margin: 5px;
+	display: inline-block;
+	border: 1px solid black;
+}
+.result .title{
+	font-weight: bold;
+}
+.login-form{
+	width: 700px;
+	padding: 2px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.login-form label{
+	height: 16px;
+	width: 110px;
+	display: inline-block;
+	padding-bottom: 20px;;
+}
+.login-form input[type=text],
+.login-form input[type=password]{
+	width: 150px;
+}
+
+.login-form input[type=submit],
+.login-form input[type=reset],button{
+	background-color: #007FC0;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5PX;
+	width: 75PX; 
+}
+.login-form input[type=reset]{
+background-color: gray;
+} 
+#errorMsg{
+	color: #f00;
+	font-size: 12px;
+}
+
+.SighnUp-form{
+	padding: 2px;
+	width: 500px;
+	height: 600px;
+	display: inline-block;
+	border: 1px solid black;
+	vertical-align: top;	
+}
+.SighnUp-form{
+	display: inline-block;
+	
+}
+.SighnUp-form #su{
+color: black;
+font-size: 20px;
+border: 2px solid blue;
+background-color:  #007FC0;
+}
+.SighnUp-form label{
+	height: 50px;
+	width: 140px;
+	display: inline-block;
+	padding-bottom: 10px;
+	padding: 18px;
+}
+
+.SighnUp-form input[type=submit],
+.SighnUp-form input[type=reset],button{
+	background-color: #007FC0;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5PX;
+	width: 150PX; 
+}
+.SighnUp-form input[type=reset]{
+background-color: gray;
+} 		
+#logoutSection{
+	display: none;
+}

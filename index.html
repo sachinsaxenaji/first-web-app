@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bajrangi.com</title>
+<link rel="stylesheet" type="text/css" href="/styles.css">
+
+</head>
+<body>
+	<div class="container">
+	<header >
+		<nav>
+
+			<ul>
+				<li><a href="=/index.html">
+				 Home</a></li>
+				<li><a href="=/Cources.html">Cources</a></li>
+				<li><a href="=/About.html">About</a></li>
+				<li><a href="=/Contact.html">Contact</a></li>
+				
+			</ul>
+
+		</nav>
+		
+		
+		</header>
+		<section id="main">
+			<p>This is <em>Home <em>page of <strong>Bajrangi.com</strong></p>
+          <div class="login-form bordered">
+				<form action="/api/login" method="POST" id="loginForm">
+					<label for="username">Username:</label>
+					<input type="text" name="username" id="username"><br/>
+					<label for="password">Password:</label>
+					<input type="Password" name="Password" id="password"><br/>
+					<input type="checkbox" name="remember" id="remember"> 
+					<label for="remember">Remember Me</label><br/>
+                    <div id="errorMsg"></div>
+					<input type="submit" name="loginbutton" value="login" />
+					<input type="reset" name="canclebutton"
+					value="Cancle" />
+				</form></div>
+				<div id="logoutSection"></br>
+				<p>You are loged in</p>
+				<button id="logoutButton">Logout</button>
+           </div>
+           <div id="results">
+           	<button id="toggleButton">Hide</button>
+           	<div id="resultList">
+           	here we show our results
+           	</div>
+           </div>
+ 
+		</section>
+<footer>	
+	&copy; <b>2018 bajrangi.com
+</footer>
+</div>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+
+</body>
+</html>
